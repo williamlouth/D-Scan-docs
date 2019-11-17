@@ -1,0 +1,14 @@
+site_name: D-scan
+
+nav:
+        - Home: index.md
+        - D-scan Creation: 'D-scan-creation.md' 
+        - dnn_learn: 'dnn_learn.md' 
+        - dnn_predict: 'dnn_predict.md' 
+        - exp_dataio: 'exp_dataio.md' 
+        - hdf5 check: 'hdf5_check.md' 
+        - main: 'main.md' 
+        - About: about.md
+        - ipsum: ipsum.md
+
+theme: readthedocs

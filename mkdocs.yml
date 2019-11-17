@@ -12,3 +12,6 @@ nav:
         - ipsum: ipsum.md
 
 theme: readthedocs
+
+docs_dir: "md/"
+site_dir: "docs/"

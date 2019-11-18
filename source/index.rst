@@ -9,7 +9,7 @@ Welcome to D-scan's documentation!
 .. toctree::
    :maxdepth: 2
 
-       D_scan_creation  <D-scan-creation.rst>
+   D_scan_creation  <D-scan-creation.rst>
                 dnn_learn  <dnn_learn.rst>
                 dnn_predict  <dnn_predict.rst>
                 main  <main.rst>

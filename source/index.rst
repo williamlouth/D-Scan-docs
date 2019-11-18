@@ -9,8 +9,8 @@ Welcome to D-scan's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   usage/installation
-   usage/quickstart
+    D-scan-creation.rst
+   
 
 
 

@@ -21,8 +21,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'D-scan'
-copyright = '2019, will louth, Rielly Newbold[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[3~W[C[C[C[C[3~L'
-author = 'will louth, Rielly Newbold[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[C[C[3~W[C[C[C[C[3~L'
+copyright = '2019, will louth, Rielly Newbold'
+author = 'will louth, Rielly Newbold'
 
 # The short X.Y version
 version = ''

@@ -9,7 +9,7 @@ Welcome to D-scan's documentation!
 .. toctree::
    :maxdepth: 2
 
-       hi <hi.rst>
+       hi 
    
    
 
@@ -19,4 +19,4 @@ Welcome to D-scan's documentation!
 * :ref:`search`
 
 
-hi  this is will and this is
+hi  this is will and this is driving

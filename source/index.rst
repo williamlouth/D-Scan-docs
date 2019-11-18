@@ -7,14 +7,14 @@ Welcome to D-scan's documentation!
 ==================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    D_scan_creation  <D-scan-creation.rst>
         dnn_learn  <dnn_learn.rst>
         dnn_predict  <dnn_predict.rst>
         main  <main.rst>
-        dataparsing/hdf5_check <dataparsing/hdf5_check.rst>
-        dataparsing/exp_dataio <dataparsing/exp_dataio.rst>
+                dataparsing/hdf5_check <dataparsing/hdf5_check.rst>
+                dataparsing/exp_dataio <dataparsing/exp_dataio.rst>
    
    
 

@@ -42,7 +42,7 @@ release = '1'
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
-    'sphinx_rtd_teme',
+    'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

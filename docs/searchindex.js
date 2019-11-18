@@ -1,1 +1,1 @@
-Search.setIndex({docnames:["index"],envversion:53,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0},titles:["Welcome to D-scan\u2019s documentation!"],titleterms:{document:0,indic:0,scan:0,tabl:0,welcom:0}})
+Search.setIndex({docnames:["D-scan-creation","index"],envversion:53,filenames:["D-scan-creation.rst","index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:1,modul:1,page:1,search:1},titles:["&lt;no title&gt;","Welcome to D-scan\u2019s documentation!"],titleterms:{document:1,indic:1,scan:1,tabl:1,welcom:1}})

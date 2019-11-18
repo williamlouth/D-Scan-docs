@@ -9,7 +9,7 @@ Welcome to D-scan's documentation!
 .. toctree::
    :maxdepth: 2
 
-       hi <hi.rst>
+       D-scan-creation  <D-scan-creation.rst>
    
    
 

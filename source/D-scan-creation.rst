@@ -29,34 +29,60 @@ my_compress
 - compression_ratio_x
 - compression_ratio_y
 
+save_instance
+-------------
 .. py:function:: save_instance(self)
 
+h5out
+-----
 .. py:function:: h5out(self,arg1)
 
 - arg1
 
+make_dscan_all
+--------------
 .. py:function:: make_dscan_all(self)
 
+make_dsca_1z
+------------
 .. py:function:: make_dsca_1z(self)
 
+make_E_omega_plot
+-----------------
 .. py:function:: make_E_omega_plot(self)
 
+make_E_omega_plot2
+------------------
 .. py:function:: make_I_omega_plot(self)
 
+make_I_labda_plot
+-----------------
 .. py:function:: make_I_labda_plot(self)
 
+make_E_t_plot
+-------------
 .. py:function:: make_E_t_plot(self)
 
+make_E_omega_plot
+-----------------
 .. py:function:: make_E_omega_plot(self)
 
+make_E_omega_plot2
+------------------
 .. py:function:: make_E_omega_plot2(self)
 
+make_I_t_plot
+-------------
 .. py:function:: make_I_t_plot(self)
 
+make_plouts
+-----------
 .. py:function:: make_plouts(self,control="all")
 
 - control
 
+D_trace
+-------
 .. py:function:: D_trace(self,E_omega,k,z,r)
 
 - E_omega
@@ -65,6 +91,8 @@ my_compress
 - r
 
 
+E_gaussian
+----------
 .. py:function:: E_gaussian(self,t,E_0,omega_0,delta_t)
 
 - t
@@ -72,6 +100,8 @@ my_compress
 - omega_0
 - delta_t
 
+E_omega_gen
+-----------
 .. py:function:: E_omega_gen(self,delta_omega=3,omega_cent=2,E_0=1)
 
 - delta_omega
@@ -79,22 +109,30 @@ my_compress
 - E_0
 
 
+make_phi
+--------
 .. py:function:: make_phi(self,control,centred = 2,phi_slope=1.0)
 
 - control
 - centred
 - phi_slope
 
+make_psi
+--------
 .. py:function:: make_psi(self,control,t_centred=0,psi_slope=1)
 
 - control
 - t_centred
 - psi_slope
 
+refractive_index
+----------------
 .. py:function:: refractive_index(self,wavelength)
 
 - wavelength
 
+D_scan
+------
 .. py:function:: D_scan(self,E_omega,omega,glass_diss)
 
 - E_omega

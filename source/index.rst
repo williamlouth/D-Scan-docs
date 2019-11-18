@@ -14,6 +14,7 @@ Welcome to D-scan's documentation!
    dnn_predict  <dnn_predict.rst>
    main  <main.rst>
    dataparsing <dataparsing/index.rst>
+   about <about.rst>
    
    
 

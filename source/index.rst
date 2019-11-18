@@ -8,14 +8,9 @@ Welcome to D-scan's documentation!
 
 .. toctree::
    :maxdepth: 2
+
    D-scan-creation
-   :caption: Contents:
-   
 
-
-
-Indices and tables
-==================
 
 * :ref:`genindex`
 * :ref:`modindex`

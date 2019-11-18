@@ -14,6 +14,7 @@ Welcome to D-scan's documentation!
         dnn_predict  <dnn_predict.rst>
         main  <main.rst>
         dataparsing/hdf5_check <dataparsing/hdf5_check.rst>
+        dataparsing/exp_dataio <dataparsing/exp_dataio.rst>
    
    
 

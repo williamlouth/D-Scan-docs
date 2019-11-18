@@ -8,7 +8,9 @@ Welcome to D-scan's documentation!
 
 .. toctree::
    :maxdepth: 2
-   hi.rst
+   :glob:
+   
+   *
 
 
 * :ref:`genindex`

@@ -10,6 +10,7 @@ Welcome to D-scan's documentation!
    :maxdepth: 2
 
     hi
+..
    
    
 
@@ -19,4 +20,4 @@ Welcome to D-scan's documentation!
 * :ref:`search`
 
 
-hi  this is will and
+hi  this is will and this

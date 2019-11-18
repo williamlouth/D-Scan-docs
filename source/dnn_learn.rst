@@ -14,6 +14,10 @@ dnn_learn
 
 .. py:function:: read_in_scan(filename)
 
+.. py:function:: read_in_other(filename)
+
+.. py:function:: read_out(filename)
+
 
 
 

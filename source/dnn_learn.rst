@@ -4,6 +4,10 @@ dnn_learn
 
 .. py:function:: _set_shapes(af,pf,gf)
 
+- af
+- pf
+- gf
+
 .. py:function:: _set_in_scan(af)
 
 .. py:function:: _set_in_other(af)

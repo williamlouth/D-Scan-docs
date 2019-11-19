@@ -31,9 +31,10 @@ my_compress
 .. py:function:: my_compress(self,in_a,compression_ratio_x,compression_ratio_y)
         A custom made compression function that takes the average of the nearest points for a 2-D array
 
-        :param in_a:
-        :param compression_ratio_x:
-        :param compression_ratio_y:
+        :param in_a: the array that is to be compressed.
+        :param compression_ratio_x: the factor by which the x axis is to be compressed by.
+        :param compression_ratio_y: the factor by which the y axis is to be compressed by.
+        :rtype: compressed array
 
 save_instance
 -------------
@@ -42,12 +43,14 @@ save_instance
 h5out
 -----
 .. py:function:: h5out(self,arg1)
+        Saves the compressed pulse into an hdf5 file in the pulses folder.
 
-        :param arg1:
+        :param arg1: The sub-folder in which the pulse is to be saved in the pulses folder.
 
 make_dscan_all
 --------------
 .. py:function:: make_dscan_all(self)
+        creates a p1color or imshow plot of the compressed dscan trace.
 
 make_dsca_1z
 ------------
@@ -76,25 +79,29 @@ make_E_omega_plot
 make_E_omega_plot2
 ------------------
 .. py:function:: make_E_omega_plot2(self)
+        makes a plot of E as a function of omega but sliced above omega =2 rad/fs
 
 make_I_t_plot
 -------------
 .. py:function:: make_I_t_plot(self)
 
-make_plouts
+make_plots
 -----------
 .. py:function:: make_plouts(self,control="all")
+        a control function for calling the other plot functions.
 
-        :param control:
+        :param control: either generates all the plots or just the dscan.
+        :type: "all" or "dscan"
 
 D_trace
 -------
 .. py:function:: D_trace(self,E_omega,k,z,r)
 
-        :param E_omega: 
-        :param k:
-        :param z:
-        :param r:
+        :param E_omega:  
+        :param k: Wavevector
+        :param z: Glass insertion distance
+        :param r: Response function
+        :rtype: the dscan at a single glass insertion.
 
 E_gaussian
 ----------
@@ -104,6 +111,7 @@ E_gaussian
         :param E_0:
         :param omega_0:
         :param delta_t:
+        :rtype: E, A gaussian distributed(in time) E field
 
 E_omega_gen
 -----------
@@ -112,22 +120,27 @@ E_omega_gen
         :param delta_omega:
         :param omega_cent:
         :param E_0:
+        :rtype: E_omega a gaussian distributed(in omega) E field
 
 make_phi
 --------
 .. py:function:: make_phi(self,control,centred = 2,phi_slope=1.0)
 
         :param control:
-        :param centred:
-        :param phi_slope:
+        :type: "phi_quadratic" or "phi_cubic"
+        :param centred: the central frequency of either the cubic or quadratic function.
+        :param phi_slope: the gradient of the cubic or quadratic function
+        :rtype: phi, The phase of the Electric field in omega.
 
 make_psi
 --------
 .. py:function:: make_psi(self,control,t_centred=0,psi_slope=1)
 
         :param control:
-        :param t_centred:
-        :param psi_slope:
+        :type: "psi_quadratic" or "psi_cubic"
+        :param centred: the central frequency of either the cubic or quadratic function.
+        :param psi_slope: the gradient of the cubic or quadratic function
+        :rtype: psi, The phase of the Electric field in time.
 
 refractive_index
 ----------------

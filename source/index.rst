@@ -17,7 +17,9 @@ Welcome to D-scan's documentation!
    about <about.rst>
    
    
-
+.. image:: _static/dscantrace.png
+  :width: 400
+  :alt: Alternative text
 
 * :ref:`genindex`
 * :ref:`modindex`

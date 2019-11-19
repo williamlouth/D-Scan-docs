@@ -19,7 +19,12 @@ Welcome to D-scan's documentation!
    
 .. image:: _static/dscantrace.png
   :width: 400
-  :alt: Alternative text
+  :alt: A dscan trace of a pulse with quadratic phase.
+
+.. image:: _static/dscancompress.png
+  :width: 400
+  :alt: A dscan trace of a pulse with quadratic phase and a compression ratio of 4.
+
 
 * :ref:`genindex`
 * :ref:`modindex`

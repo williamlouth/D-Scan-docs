@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to D-scan's documentation!
-==================================
+Welcome to D-scan's documentation
+=================================
 
 .. toctree::
    :maxdepth: 4
@@ -31,4 +31,3 @@ Welcome to D-scan's documentation!
 * :ref:`search`
 
 
-hi  this is will and this is driving me mad

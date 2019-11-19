@@ -16,12 +16,12 @@ __init__
         :type control: "E_omega" or "E_t"
         :param steps: The number of steps in time. Used to define the time axis.
         :param start: The start time (fs)
-        :pararm stop: The stop time (fs)
-        :pararm E_0: The maximum amplitude of the electric field.
-        :pararm omega_0: The central frequency of the pulse
-        :pararm delta: If control is "E_t" it is the width of the gaussian in the time axis.
-        :pararm glass_dis: The maximum insertion distance of the glass in nm
-        :pararm phase_control: "phi_quadratic" gives a random quadratic phase in frequency space and "phi_cubic" gives a random cubic phase in frequency space. "none" results in no phase being added.
+        :param stop: The stop time (fs)
+        :param E_0: The maximum amplitude of the electric field.
+        :param omega_0: The central frequency of the pulse
+        :param delta: If control is "E_t" it is the width of the gaussian in the time axis.
+        :param glass_dis: The maximum insertion distance of the glass in nm
+        :param phase_control: "phi_quadratic" gives a random quadratic phase in frequency space and "phi_cubic" gives a random cubic phase in frequency space. "none" results in no phase being added.
         :type phase_control: "none" or "phi_quadratic" or "phi_cubic" 
         :rtype: None
 
@@ -29,10 +29,11 @@ __init__
 my_compress
 -----------
 .. py:function:: my_compress(self,in_a,compression_ratio_x,compression_ratio_y)
+        A custom made compression function that takes the average of the nearest points for a 2-D array
 
-- in_a
-- compression_ratio_x
-- compression_ratio_y
+        :param in_a:
+        :param compression_ratio_x:
+        :param compression_ratio_y:
 
 save_instance
 -------------
@@ -42,7 +43,7 @@ h5out
 -----
 .. py:function:: h5out(self,arg1)
 
-- arg1
+        :param arg1:
 
 make_dscan_all
 --------------
@@ -84,67 +85,64 @@ make_plouts
 -----------
 .. py:function:: make_plouts(self,control="all")
 
-- control
+        :param control:
 
 D_trace
 -------
 .. py:function:: D_trace(self,E_omega,k,z,r)
 
-- E_omega
-- k
-- z
-- r
-
+        :param E_omega: 
+        :param k:
+        :param z:
+        :param r:
 
 E_gaussian
 ----------
 .. py:function:: E_gaussian(self,t,E_0,omega_0,delta_t)
 
-- t
-- E_0
-- omega_0
-- delta_t
+        :param t:
+        :param E_0:
+        :param omega_0:
+        :param delta_t:
 
 E_omega_gen
 -----------
 .. py:function:: E_omega_gen(self,delta_omega=3,omega_cent=2,E_0=1)
 
-- delta_omega
-- omega_cent
-- E_0
-
+        :param delta_omega:
+        :param omega_cent:
+        :param E_0:
 
 make_phi
 --------
 .. py:function:: make_phi(self,control,centred = 2,phi_slope=1.0)
 
-- control
-- centred
-- phi_slope
+        :param control:
+        :param centred:
+        :param phi_slope:
 
 make_psi
 --------
 .. py:function:: make_psi(self,control,t_centred=0,psi_slope=1)
 
-- control
-- t_centred
-- psi_slope
+        :param control:
+        :param t_centred:
+        :param psi_slope:
 
 refractive_index
 ----------------
 .. py:function:: refractive_index(self,wavelength)
+        
+        :param wavelength:
 
-- wavelength
 
 D_scan
 ------
 .. py:function:: D_scan(self,E_omega,omega,glass_diss)
 
-- E_omega
-- omega
-- glass_diss
-
-
+        :param E_omega:
+        :param omega:
+        :param glass_diss:
 
 
 

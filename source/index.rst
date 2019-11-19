@@ -26,6 +26,11 @@ Welcome to D-scan's documentation
   :alt: A dscan trace of a pulse with quadratic phase and a compression ratio of 4.
 
 
+.. image:: _static/prediction_bad.png
+  :width: 900
+  :alt: A  prediction of the phase from the d-scan by the deep neural network. The prediction is terrible and it doesn't follow the phase at all.
+
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

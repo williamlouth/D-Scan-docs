@@ -13,45 +13,17 @@ __init__
         the initialisation function.
 
         :param control:  Takes the values either "E_omega" or "E_t". It controls whether the pulse is created from a time or frequency space description.
-
-Parameters:
-
-        - control
-        
-                Takes the values either "E_omega" or "E_t". It controls whether the pulse is created from a time or frequency space description.
-        
-        - steps
-        
-                The number of steps in time. Used to define the time axis.
-        
-        - start
-        
-                The start time (fs)
-        
-        - stop
-          
-                The stop time (fs)
-        
-        - E_0
-        
-                The maximum amplitude of the electric field.
-        
-        - omega_0
-        
-                The central frequency of the pulse
-        
-        - delta
-        
-                If control is "E_t" it is the width of the gaussian in the time axis.
-        
-        - glass_dis
-        
-                The maximum insertion distance of the glass in nm
-        
-        - phase_control
-        
-                Can be either "none" or "phi_quadratic" or "phi_cubic". "none" gives no extra phase. "phi_quadratic" gives a random quadratic phase in frequency space and "phi_cubic" gives a random cubic phase in frequency space.
-        
+        :type control: "E_omega" or "E_t"
+        :param steps: The number of steps in time. Used to define the time axis.
+        :param start: The start time (fs)
+        :pararm stop: The stop time (fs)
+        :pararm E_0: The maximum amplitude of the electric field.
+        :pararm omega_0: The central frequency of the pulse
+        :pararm delta: If control is "E_t" it is the width of the gaussian in the time axis.
+        :pararm glass_dis: The maximum insertion distance of the glass in nm
+        :pararm phase_control: "phi_quadratic" gives a random quadratic phase in frequency space and "phi_cubic" gives a random cubic phase in frequency space. "none" results in no phase being added.
+        :type phase_control: "none" or "phi_quadratic" or "phi_cubic" 
+        :rtype: None
 
 
 my_compress

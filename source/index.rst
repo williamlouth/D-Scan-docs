@@ -30,6 +30,9 @@ Welcome to D-scan's documentation
   :width: 900
   :alt: A  prediction of the phase from the d-scan by the deep neural network. The prediction is terrible and it doesn't follow the phase at all.
 
+.. image:: _static/prediction_meh.png
+  :width: 900
+  :alt: A  prediction of the phase from the d-scan by the deep neural network. The prediction is pretty bad and is very similar no matter what the input is.
 
 * :ref:`genindex`
 * :ref:`modindex`

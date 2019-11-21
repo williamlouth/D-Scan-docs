@@ -6,6 +6,8 @@ pulse_class
 .. py:class:: pulse_class
 
 
+
+
 __init__
 --------
 .. py:function:: __init__(self,control,steps=1024,start=-256,stop=256,E_0=1,omega_0=10,delta=3,glass_dis=5e5,phase_control = "none")
@@ -79,7 +81,8 @@ make_E_omega_plot
 make_E_omega_plot2
 ------------------
 .. py:function:: make_E_omega_plot2(self)
-        makes a plot of E as a function of omega but sliced above omega =2 rad/fs
+
+        makes a plot of E as a function of omega but sliced above omega = 2 rad/fs
 
 make_I_t_plot
 -------------

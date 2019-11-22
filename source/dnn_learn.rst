@@ -3,12 +3,14 @@ dnn_learn
 
 The file responsible for the learning of the model.
 
+:param hi:
+
 .. py:function:: _set_in_scan(af)
 
         Sets the as_list sizes for the input tensor. These must be set before the dataset is passed to model.fit
 
         :param af: the tensor that will have its shape defined
-        :rtype: af
+        :rtype: tensorflow tensor
 
 
 .. py:function:: _set_in_other(af)
@@ -16,7 +18,7 @@ The file responsible for the learning of the model.
         Sets the as_list sizes for the input tensor. These must be set before the dataset is passed to model.fit
 
         :param af: the tensor that will have its shape defined
-        :rtype: af
+        :rtype: tensorflow tensor
 
 
 .. py:function:: _set_out(af)
@@ -24,7 +26,7 @@ The file responsible for the learning of the model.
         Sets the as_list sizes for the input tensor. These must be set before the dataset is passed to model.fit
 
         :param af: the tensor that will have its shape defined
-        :rtype: af
+        :rtype: tensorflow tensor
 
 
 .. py:function:: read_in_scan(filename)

@@ -13,7 +13,6 @@ Welcome to D-scan's documentation
    dnn_learn  <dnn_learn.rst>
    dnn_predict  <dnn_predict.rst>
    dnn_model  <dnn_model.rst>
-   dnn_vgg  <dnn_vgg.rst>
    main  <main.rst>
    dataparsing <dataparsing/index.rst>
    about <about.rst>

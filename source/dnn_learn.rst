@@ -48,7 +48,7 @@ The file responsible for the learning of the model.
         opens the hdf5 file (filename) and reads out the array stored in 'input_scan'
 
         :param filename:
-        :rytpe: 2D array
+        :rtype: 2D array
 
 
 .. py:function:: read_in_other(filename)
@@ -56,14 +56,14 @@ The file responsible for the learning of the model.
         opens the hdf5 file (filename) and reads out the array stored in 'input_other'
 
         :param filename:
-        :rytpe: 1D array
+        :rtype: 1D array
 
 .. py:function:: read_out(filename)
 
         opens the hdf5 file (filename) and reads out the array stored in 'output'
 
         :param filename:
-        :rytpe: 1D array
+        :rtype: 1D array
 
 
 

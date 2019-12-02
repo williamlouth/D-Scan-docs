@@ -3,7 +3,6 @@ dnn_learn
 
 The file responsible for the learning of the model.
 
-:param hi:
 
 .. py:function:: _set_in_scan(af)
 

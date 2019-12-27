@@ -1,7 +1,9 @@
+###################
 maxpool predections
--------------------------
+###################
 
-<h3> model </h3>
+model 
+-----
 
 the model used for these predictions. 
 
@@ -9,14 +11,16 @@ the model used for these predictions.
         :width: 800
         :alt: These predictions are much better and the result from the dnn follows the desired output for most of the frequencies.
 
-<h3> training fit </h3>
+training fit 
+------------
 
 .. image:: ../_static/predictions/maxpool_1.png
         :width: 800
         :alt: These predictions are much better and the result from the dnn follows the desired output for most of the frequencies.
 
 
-<h3> testing fit </h3>
+testing fit
+-----------
 
 .. image:: ../_static/predictions/maxpool_2.png
         :width: 800

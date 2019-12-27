@@ -2,7 +2,7 @@ maxpool predections
 -------------------------
 ### model 
 
-the model used for these predictions. thing
+the model used for these predictions. thing thing2
 
 .. image:: ../_static/predictions/maxpool_0.png
         :width: 800

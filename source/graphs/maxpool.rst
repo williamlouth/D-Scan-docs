@@ -14,6 +14,7 @@ model
 
 training fit 
 ------------
+ 
 
 .. image:: ../_static/predictions/maxpool_1.png
         :width: 800
@@ -27,6 +28,10 @@ testing fit
         :width: 800
         :alt: These predictions are much better and the result from the dnn follows the desired output for most of the frequencies.
 
+discussion
+----------
+
+There is a good fitting for the training data however on the testing data there is quite a poor fitting. This tends to happen when there is overfitting of the data. With such a simple model this happens quite quickly however the simplicity of the model also means that it is unable to distinguish between different dscans very well and as such will not generalise well to new pulses.
 
 
 

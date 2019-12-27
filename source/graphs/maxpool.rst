@@ -2,10 +2,11 @@
 maxpool predections
 ###################
 
+The model used for these predictions was very simple and was used as a very basic baseline to compare other models from. This has been run on pulses with random quadratic phase profiles. There was no noise in the data.
+
 model 
 -----
 
-the model used for these predictions. 
 
 .. image:: ../_static/predictions/maxpool_0.png
         :width: 800

@@ -1,6 +1,7 @@
 maxpool predections
 -------------------------
 ###model 
+the model used for these predictions.
 
 .. image:: _/static/predictions/maxpool_0.png
         :width: 800

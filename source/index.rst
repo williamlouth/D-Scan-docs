@@ -10,8 +10,6 @@ Welcome to D-scan's documentation
    :maxdepth: 4
 
    Graphs  <graphs/index.rst>
-   First prediction  <graphs/first.rst>
-   MaxPool prediction  <graphs/maxpool.rst>
    D_scan_creation  <D-scan-creation.rst>
    dnn_learn  <dnn_learn.rst>
    dnn_predict  <dnn_predict.rst>

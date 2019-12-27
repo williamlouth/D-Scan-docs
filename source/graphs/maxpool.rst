@@ -3,7 +3,7 @@ maxpool predections
 
 <h3> model </h3>
 
-the model used for these predictions. thing thing2
+the model used for these predictions. 
 
 .. image:: ../_static/predictions/maxpool_0.png
         :width: 800

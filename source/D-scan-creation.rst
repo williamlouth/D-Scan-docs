@@ -94,7 +94,7 @@ make_plots
         a control function for calling the other plot functions.
 
         :param control: either generates all the plots or just the dscan.
-        :type: "all" or "dscan"
+        :type control: "all" or "dscan"
 
 D_trace
 -------
@@ -130,7 +130,7 @@ make_phi
 .. py:function:: make_phi(self,control,centred = 2,phi_slope=1.0)
 
         :param control:
-        :type: "phi_quadratic" or "phi_cubic"
+        :type control: "phi_quadratic" or "phi_cubic"
         :param centred: the central frequency of either the cubic or quadratic function.
         :param phi_slope: the gradient of the cubic or quadratic function
         :rtype: phi, The phase of the Electric field in omega.
@@ -140,7 +140,7 @@ make_psi
 .. py:function:: make_psi(self,control,t_centred=0,psi_slope=1)
 
         :param control:
-        :type: "psi_quadratic" or "psi_cubic"
+        :type control:  "psi_quadratic" or "psi_cubic"
         :param centred: the central frequency of either the cubic or quadratic function.
         :param psi_slope: the gradient of the cubic or quadratic function
         :rtype: psi, The phase of the Electric field in time.

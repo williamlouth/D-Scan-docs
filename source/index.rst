@@ -15,6 +15,7 @@ Welcome to D-scan's documentation
    D_scan_creation  <D-scan-creation.rst>
    dnn_learn  <dnn_learn.rst>
    dnn_predict  <dnn_predict.rst>
+   dnn_model  <dnn_model.rst>
    main  <main.rst>
    dataparsing <dataparsing/index.rst>
    about <about.rst>
@@ -30,6 +31,17 @@ Welcome to D-scan's documentation
 
 
 
+.. image:: _static/prediction_meh.png
+  :width: 900
+  :alt: A  prediction of the phase from the d-scan by the deep neural network. The prediction is pretty bad and is very similar no matter what the input is.
+  
+.. image:: _static/dscan_1_push_arm_cropped.png
+  :width: 900
+  :alt: 
+
+.. image:: _static/Retrieved_d_scan_1.png
+  :width: 900
+  :alt: 
 
 * :ref:`genindex`
 * :ref:`modindex`
